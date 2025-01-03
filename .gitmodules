@@ -1,0 +1,3 @@
+[submodule "Libraries/SimpleInteractions"]
+	path = Libraries/SimpleInteractions
+	url = https://github.com/GuuscoNL/SimpleInteractions
