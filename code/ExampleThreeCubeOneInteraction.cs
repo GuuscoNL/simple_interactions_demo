@@ -1,11 +1,12 @@
 using Sandbox;
 using SimpleInteractions;
+using Sandbox.Diagnostics;
 
 public sealed class ExampleThreeCubeOneInteraction : SimpleInteraction
 {
 
 	[Property]
-	GameObject OtherCube;
+	GameObject OtherCube = null;
 
 	private SimpleInteraction OtherInteraction;
 
@@ -13,10 +14,7 @@ public sealed class ExampleThreeCubeOneInteraction : SimpleInteraction
 	{
 		base.OnStart();
 
-		if(!OtherCube.IsValid())
-		{
-			Log.Error($"No OtherCube selected for {this.GameObject.Name}!");
-		}
+		Assert.True(OtherCube.IsValid(), $"No OtherCube selected for {this.GameObject.Name}!");
 
 		OtherInteraction = OtherCube.GetComponent<SimpleInteraction>();
 	}
