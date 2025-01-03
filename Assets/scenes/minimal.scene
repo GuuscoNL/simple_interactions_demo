@@ -622,7 +622,7 @@
                 "AfterUILayer": false
               },
               "RenderType": "On",
-              "Tint": "1,0,0.93333,1"
+              "Tint": "1,0,0,1"
             },
             {
               "__type": "Sandbox.BoxCollider",
@@ -655,13 +655,13 @@
               "StartAsleep": false
             },
             {
-              "__type": "ExampleOneInteraction",
-              "__guid": "dc15107d-90a3-4cf7-8703-9784ae897e13",
+              "__type": "ExampleTwoInteraction",
+              "__guid": "93c57194-a07b-43ec-8097-9c48b1f3dede",
               "InteractionDistance": 120,
               "InteractionEnabled": true,
               "InteractionHold": true,
               "InteractionHoldDuration": 1,
-              "InteractionString": "Interact"
+              "InteractionString": "Change to Green"
             }
           ]
         }
