@@ -466,6 +466,201 @@
               "__guid": "bd5c6c54-b22c-4122-b071-eb6a419a8b08",
               "InteractionDistance": 120,
               "InteractionEnabled": true,
+              "InteractionHold": false,
+              "InteractionHoldDuration": 1,
+              "InteractionString": "Interact"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "9025880a-3015-4843-8180-91800de9b88d",
+      "Flags": 0,
+      "Name": "Example 4 Container",
+      "Position": "32.00003,-393.6526,0.00006990135",
+      "Rotation": "0,0,1,-0.00000004371139",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "6764210f-ad56-4c13-94fa-bfee6754cf07",
+          "Flags": 0,
+          "Name": "Example Text 2",
+          "Position": "0.0001253199,37.17093,55.3449",
+          "Rotation": "0,0,0.7071067,0.7071068",
+          "Scale": "0.5,0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "d886334c-928e-4ee8-a855-f110209c6e0a",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.3,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "Holding interaction",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 55,
+                "FontWeight": 800,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "6b97b49d-000a-4050-96d5-176848cb927f",
+          "Flags": 0,
+          "Name": "Example Text",
+          "Position": "0.00009480232,37.17093,73.19839",
+          "Rotation": "0,0,0.7071067,0.7071068",
+          "Scale": "0.5,0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.TextRenderer",
+              "__guid": "86832ec6-1a66-463b-a954-2df3aec779ad",
+              "__version": 1,
+              "BlendMode": "Normal",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "Scale": 0.3,
+              "TextAlignment": "Center",
+              "TextScope": {
+                "Text": "Example 4",
+                "TextColor": "1,1,1,1",
+                "FontName": "Poppins",
+                "FontSize": 128,
+                "FontWeight": 800,
+                "FontItalic": false,
+                "LineHeight": 1,
+                "LetterSpacing": 0,
+                "WordSpacing": 0,
+                "Outline": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,1,1"
+                },
+                "Shadow": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                },
+                "OutlineUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,1,0,1"
+                },
+                "ShadowUnder": {
+                  "Enabled": false,
+                  "Size": 4,
+                  "Color": "0,0,0,1",
+                  "Offset": "4,4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "68aada81-5ed6-4fef-b3e2-aca74fedb975",
+          "Flags": 0,
+          "Name": "Example Cube",
+          "Position": "0,22.22504,14.40155",
+          "Scale": "0.5632889,0.5632889,0.5632889",
+          "Enabled": true,
+          "NetworkMode": 1,
+          "NetworkOrphaned": 2,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "f41305c7-766a-43a2-8ab3-f0b84d42a3b2",
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "MaterialOverride": "materials/default.vmat",
+              "Model": "models/dev/box.vmdl",
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,0,0.93333,1"
+            },
+            {
+              "__type": "Sandbox.BoxCollider",
+              "__guid": "b0bed4f8-7f55-4b90-a766-d3da3633eaf9",
+              "Center": "0,0,0",
+              "IsTrigger": false,
+              "Scale": "50,50,50",
+              "Static": false,
+              "SurfaceVelocity": "0,0,0"
+            },
+            {
+              "__type": "Sandbox.Rigidbody",
+              "__guid": "fc27e425-3e39-43f5-b46c-11c692ff7c9b",
+              "AngularDamping": 0,
+              "Gravity": true,
+              "LinearDamping": 0,
+              "Locking": {
+                "X": true,
+                "Y": true,
+                "Z": false,
+                "Pitch": true,
+                "Yaw": true,
+                "Roll": true
+              },
+              "MassCenterOverride": "0,0,0",
+              "MassOverride": 0,
+              "MotionEnabled": true,
+              "OverrideMassCenter": false,
+              "RigidbodyFlags": 0,
+              "StartAsleep": false
+            },
+            {
+              "__type": "ExampleOneInteraction",
+              "__guid": "dc15107d-90a3-4cf7-8703-9784ae897e13",
+              "InteractionDistance": 120,
+              "InteractionEnabled": true,
+              "InteractionHold": true,
+              "InteractionHoldDuration": 1,
               "InteractionString": "Interact"
             }
           ]
@@ -636,6 +831,8 @@
               "__guid": "64934db3-02e5-4946-a3fa-5be1c5314231",
               "InteractionDistance": 120,
               "InteractionEnabled": true,
+              "InteractionHold": false,
+              "InteractionHoldDuration": 1,
               "InteractionString": "Change to Green"
             }
           ]
@@ -646,7 +843,7 @@
       "__guid": "3e55d145-d8e8-4c1c-ab2d-2001730c2ebb",
       "Flags": 0,
       "Name": "Example 3 Container",
-      "Position": "180.131,-393.6526,0.00006990135",
+      "Position": "160,-393.6526,0.00006990135",
       "Rotation": "0,0,1,-0.00000004371139",
       "Enabled": true,
       "Children": [
@@ -827,6 +1024,8 @@
               "__guid": "a5f8d2a4-d636-49e4-b430-23a7bc75aa78",
               "InteractionDistance": 120,
               "InteractionEnabled": true,
+              "InteractionHold": false,
+              "InteractionHoldDuration": 1,
               "InteractionString": "Interact"
             }
           ]
@@ -875,6 +1074,8 @@
               },
               "InteractionDistance": 120,
               "InteractionEnabled": true,
+              "InteractionHold": false,
+              "InteractionHoldDuration": 1,
               "InteractionString": "Disable Interaction on other cube"
             }
           ]
