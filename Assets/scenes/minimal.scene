@@ -587,6 +587,7 @@
             {
               "__type": "ExampleOneInteraction",
               "__guid": "bd5c6c54-b22c-4122-b071-eb6a419a8b08",
+              "Collider": null,
               "InteractionDistance": 120,
               "InteractionEnabled": true,
               "InteractionHold": false,
@@ -796,6 +797,7 @@
             {
               "__type": "ExampleTwoInteraction",
               "__guid": "64934db3-02e5-4946-a3fa-5be1c5314231",
+              "Collider": null,
               "InteractionDistance": 120,
               "InteractionEnabled": true,
               "InteractionHold": false,
@@ -1032,6 +1034,7 @@
             {
               "__type": "ExampleThreeCubeTwoInteraction",
               "__guid": "a5f8d2a4-d636-49e4-b430-23a7bc75aa78",
+              "Collider": null,
               "InteractionDistance": 120,
               "InteractionEnabled": true,
               "InteractionHold": false,
@@ -1107,6 +1110,7 @@
                 "_type": "gameobject",
                 "go": "e2b48e05-9602-4a69-a8d1-b22cad15e473"
               },
+              "Collider": null,
               "InteractionDistance": 120,
               "InteractionEnabled": true,
               "InteractionHold": false,
@@ -1343,6 +1347,7 @@
             {
               "__type": "ExampleTwoInteraction",
               "__guid": "93c57194-a07b-43ec-8097-9c48b1f3dede",
+              "Collider": null,
               "InteractionDistance": 120,
               "InteractionEnabled": true,
               "InteractionHold": true,
@@ -1614,6 +1619,7 @@
                     "_type": "gameobject",
                     "go": "cb315c8d-2932-4436-b62c-fb1ddb7579c6"
                   },
+                  "Collider": null,
                   "InteractionDistance": 120,
                   "InteractionEnabled": true,
                   "InteractionHold": false,
@@ -1664,6 +1670,7 @@
                     "_type": "gameobject",
                     "go": "cb315c8d-2932-4436-b62c-fb1ddb7579c6"
                   },
+                  "Collider": null,
                   "InteractionDistance": 120,
                   "InteractionEnabled": true,
                   "InteractionHold": false,
